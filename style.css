@@ -1,0 +1,638 @@
+.wrapper{
+    height: 4500px;
+    width: 100%;
+}
+.box1{
+    background-color: whitesmoke;
+    height: 80px;
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+.bar{
+    position: absolute;
+    right: 250px;
+    top: 30px;
+    color: black;
+    left: 1400px;
+}
+.logo{
+
+    margin-left: 50px;
+    margin-top: 25px;
+}
+.box2{
+    height: 670px;
+    width: 100%;
+    display: flex;
+}
+.s1{
+    
+    height: 680px;
+    width: 50%;
+    animation: s1;
+    animation-duration: 2s;
+
+    
+}
+@keyframes s1{
+    from{
+        transform: translateX(-200px);
+    }
+}
+.s2{
+    
+    height: 680px;
+    width: 50%;
+    animation: s2;
+    animation-duration: 2s;
+
+
+
+}
+@keyframes s2{
+    from{
+        transform: translateX(200px);
+    }
+    
+
+}
+.H1{
+    font-size: 30px;
+    color: #2544b8;;
+    text-align: center;
+    margin-top: 180px;
+    font-family:sans-serif;
+    font-style: italic;
+    margin-left: 30px;
+
+}
+.P1{
+    margin-left: 200px;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 1.8;
+    color: #111111;
+    font-weight: 400;
+}
+.box3{
+    
+    height: 450px;
+    width: 100%;
+    display: flex;
+}
+.BOX4{
+    height: 870px;
+    width: 100%;
+}
+.b1{
+    
+    height: 450px;
+    width: 500px;
+   background-color: #2544b8;
+   animation: b1;
+    animation-duration: 2s;
+}
+@keyframes b1{
+    from{
+        transform: translateY(200px);
+    }
+}
+
+.b2{
+    
+    height: 450px;
+    width: 500px;
+    background-color:#616be8;
+    animation: b2;
+    animation-duration: 2s;
+}
+@keyframes b2{
+    from{
+        transform: translateY(200px);
+        
+    }
+}
+.b3{
+    
+    height: 450px;
+    width: 500px;
+    background-color: #36b1e1;
+    animation: b3;
+    animation-duration: 2s;
+}
+@keyframes b3{
+    from{
+        transform: translateY(200px);
+    }}
+.H2,.H3,.H4{
+    font-size: 30px;
+    color: aliceblue;
+    margin-left: 30px;
+    margin-top: 70px;
+   
+
+}
+.F1{
+    
+    height: 126px;
+    width: 100%;
+    
+
+}
+.feature{
+    text-align: center;
+    font-family: 'Open Sans',sans-serif;
+    letter-spacing: 2px;
+    font-size: 18px;
+    color: #3323ac;
+}
+.P2,.P3,.P4{
+    color: azure;
+    font-size: 18px;
+    line-height: 1.6;
+    font-family: sans-serif;
+    margin-left: 30px;
+    
+}
+.box2p2{
+    margin-top: 15px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    left: 210px;
+    font-style: italic;
+    display: inline-block;
+
+}
+.link1{
+    font-size: 16px;
+    font-family: sans-serif;
+    display: inline-block;
+    margin-left: 20px;
+}
+.link1:hover{
+    text-decoration-line: none;
+    color: black;
+    border-bottom:2px solid  #3323ac;
+    display: inline-block;
+}
+.BTN button{
+    width: 180px;
+    height: 50px;
+    border-radius: 30px;
+    border-width: 0px;
+    font-size: 17px;
+    margin-top: 35px;
+    color: white;
+    background-color:#2544b8;
+ }
+
+.BTN button:hover{
+    background-color: #259bca;
+    transition-duration: 0.2s;
+}
+.arrow{
+    margin-left: 30px;}
+
+.quali{
+    color: #3323ac;
+    font-size: 3rem;
+   text-align: center;
+   line-height: 0%;
+   font-weight: 900;
+   
+}
+.container{
+    height: 600px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.con1{
+
+    height: 600px;
+    width: 1100px;
+    justify-content: space-around;
+    display: flex;
+}
+.A1,.A2,.A3{
+    height: 600px;
+    width:390px;
+    justify-content: center;
+    align-items: center;
+
+}
+.I1,.I2,.I3{
+
+    height: 267px;
+    width: 238px;
+    margin: auto;
+}
+.K1,.K2,.K3{
+    font-size: 1.5rem;
+    line-height: 1.2;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-style: normal;
+    letter-spacing: 3px;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: #3323ac;
+
+}
+.N1,.N2,.N3{
+    line-height: 1.6;
+    font-size: 18px;
+    text-align: center;
+    font-family: sans-serif;
+
+}
+.BTN1 button{
+    width: 140px;
+    height: 40px;
+    border-radius: 30px;
+    border-width: 0px;
+    font-size: 17px;
+    color: white;
+    background-color:#2544b8;
+    margin-left: 110px;
+ }
+
+.BTN1 button:hover{
+    background-color: #259bca;
+    transition-duration: 0.2s;
+}
+.free{
+
+    width: 100%;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.link2{
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.link2:hover{
+    text-decoration-line: none;
+    color: black;
+    border-bottom:2px solid  #3323ac;
+}
+.box4p4{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    
+
+}
+.BOX5{
+
+    width: 100%;
+    height: 751px;
+    background-image: url(images/Untitled-2.jpg);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+.abi{
+    height: 442px;
+    width: 533px;
+    background-color: white;
+    box-shadow: #111111;
+}
+.kansi{
+    font-size: 3rem;
+    line-height: 1.1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    list-icon-spacing: 0.3;
+    list-icon-size: 0.8;
+    font-weight: 800;
+    text-align: center;
+    color: #3323ac;
+    font-family: sans-serif;
+}
+.para{
+    line-height: 1.6;
+    font-size: 18px;
+    text-align: center;
+    font-family: sans-serif;
+
+
+}
+.BTN2 button{
+    width: 140px;
+    height: 40px;
+    border-radius: 30px;
+    border-width: 0px;
+    font-size: 17px;
+    color: white;
+    background-color:#2544b8;
+    margin-left: 37%;
+    margin-top: 20px;
+ }
+
+.BTN2 button:hover{
+    background-color: #259bca;
+    transition-duration: 0.2s;
+}
+.BOX6{
+
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.para1{
+    font-weight: 700;
+    font-size: 1.9rem;
+    width: 858px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 60px;
+}
+.BOX7{
+    
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.para2{
+    font-size: 1rem;
+    line-height: 1.6;
+    text-align: center;
+    margin-top: 60px;
+    font-family: sans-serif;
+    color: darkgrey;
+}
+.BOX8{
+    
+    height: 430px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.sb1{
+
+    height: 250px;
+    width: 976px;
+    margin: auto;
+    
+}
+.ss1{
+    
+    height: 123px;
+    width: 976px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.ss2{
+    
+    height: 123px;
+    width: 976px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.sb2{
+    
+    height: 123px;
+    width: 479px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.sb3{
+    
+    height: 123px;
+    width: 479px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.sb4{
+
+    height: 123px;
+    width: 479px;
+    display: flex;
+    justify-content: space-around;
+
+}.sb5{
+    
+    height: 123px;
+    width: 479px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.tick{
+    margin-top: 23px;
+}
+.m1,.m2,.m3,.m4 {
+    font-size: 1.7rem;
+    line-height: 1.2;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.BOX9{
+    height: 580px;
+    width: 100%;
+    background-color: #616be8;
+    display: flex;
+    justify-content: space-around;
+
+}
+.n1{
+    height: 580px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.n2{
+    height: 580px;
+    width: 50%;
+}
+.kkk{
+    border-radius: 50%;
+    height: 441px;
+    width: 441px;
+    background-image: url(images/klkl.jpg);
+    background-size: cover;
+    box-shadow: #111111;
+
+}
+.hello{
+    font-size: 3rem; 
+    line-height: 1.1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 800;
+    font-family: sans-serif;
+    color: white;
+}
+.par{
+    line-height: 1.8;
+    font-size: 1.625rem;
+    font-weight: 400;
+    font-style: normal;
+    margin: 32px 0 0;
+    color: white;
+}
+.link5{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: white;
+}
+.link5:hover{
+    text-decoration-line: none;
+    color: white;
+    border-bottom:2px solid white;
+    display: inline-block;
+
+}
+.box6p6{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    display: inline-block;
+
+}
+.link3{
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.link3:hover{
+    text-decoration-line: none;
+    color: black;
+    border-bottom:2px solid  #3323ac;
+    display: inline-block;
+}
+.box5p5{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    display: inline-block;
+    margin-left: 35%;
+}
+.BTN9 button{
+    width: 180px;
+    height: 50px;
+    border-radius: 30px;
+    border-width: 0px;
+    font-size: 13px;
+    margin-top: 35px;
+    color: #616be8;
+    background-color:white;
+    font-family: sans-serif;
+ }
+
+.BTN9 button:hover{
+    background-color: #259bca;
+    transition-duration: 0.2s;
+}
+.BOX10{
+    
+    height: 480px;
+    width: 100%;
+    background-color: #616be8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.contain1{
+
+    height: 435px;
+    width: 1140px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.pbox1,.pbox2,.pbox3{
+
+    height: 435px;
+    width: 370px;
+}
+.st,.st1,.st2{
+    letter-spacing: 1px;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0;
+    color: white;
+    font-family: sans-serif;
+}
+.stp1,.stp2,.stp3{
+    font-size: 1.25rem;
+    line-height: 2.2;
+    margin: 30px 0 0;
+    color: white;
+    font-family: sans-serif;
+}
+.BOX11{
+    
+    height: 936px;
+    width: 100%;
+    background-image: url(images/Untitled-2.jpg);
+    background-size: cover;
+    display: flex;
+}
+.cb1{
+    height: 936px;
+    width: 50%;
+
+
+}
+.cb2{
+
+
+    height: 936px;
+    width: 50%;
+    
+}
+.e1,.e2{
+    
+    height: 468px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.e3,.e4,.e5,.e6{
+    
+    height: 400px;
+    width: 40%;
+    background-color: white;
+}
+.BOX12{
+   background-color:whitesmoke;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mm{
+    font-style: italic;
+    font-family: sans-serif;
+    color:darkgrey;
+}
